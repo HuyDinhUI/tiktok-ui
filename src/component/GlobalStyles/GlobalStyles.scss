@@ -22,3 +22,15 @@ body{
     text-rendering: optimizeSpeed;
     line-height: 21px;
 }
+
+.DivBodyContainer{
+    margin: 0;
+    display: flex;
+    width:100vw;
+    max-width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-self: center;
+    flex: 1 1 auto;
+    background-color: black;
+}
