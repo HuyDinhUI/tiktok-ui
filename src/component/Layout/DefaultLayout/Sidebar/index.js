@@ -10,7 +10,7 @@ function Sidebar(){
                 <div class={styles.divFixedContentContainer}>
                     <div class={styles.divLogoWrapper}>
                         <a style={{position:'relative'}} class={styles.StylesLinkLogo} aria-label='Go to my feed'>
-                            
+                            <img class={styles.styleLogoLight} src={require('~/assest/img/1200px-TikTok_logo.svg.png')}></img>
                         </a>
                     </div>
                 </div>
