@@ -1,0 +1,15 @@
+.Wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container{
+    width: 1150px;
+    display:flex;
+}
+
+.Content{
+    flex: 1;
+}
