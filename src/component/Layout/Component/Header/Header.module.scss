@@ -17,6 +17,10 @@
     
 }
 
+.search-result{
+    width: 361px;
+}
+
 .search{
     width: 361px;
     height: var(--search-height);
@@ -84,6 +88,13 @@
     position: absolute;
     right:65px;
     color: rgba(22 ,24 ,35 ,0.34);
+}
+
+.search-title{
+   color: rgba(22, 24, 35 , 0.5);
+   font-size: 1.4rem;
+   font-weight: 600;
+   padding: 5px 12px;
 }
 
 
