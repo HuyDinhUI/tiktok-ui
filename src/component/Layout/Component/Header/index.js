@@ -12,7 +12,7 @@ import "tippy.js/dist/tippy.css";
 import { useState } from "react";
 import { Wrapper as PopperWrapper } from "~/component/Popper";
 import AccountItem from "~/component/AccountIem";
-
+import Button from "~/component/Button";
 
 function Header() {
   const [searchResult, setSearchResult] = useState([]);
@@ -48,7 +48,10 @@ function Header() {
             </button>
           </div>
         </Tippy>
-        <div className={Styles.actions}></div>
+        <div className={Styles.actions}>
+          <Button text >Upload</Button>
+          <Button primary >Log in</Button>
+        </div>
       </div>
     </header>
   );
