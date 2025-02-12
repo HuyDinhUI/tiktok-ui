@@ -3,7 +3,10 @@
 
 
 :root{
-    --primary:#ff3b5c;
+    --primary-color:#ff3b5c;
+    --black:#000;
+    --default-layout-width:1150px;
+    --text-color:#333;
 }
 
 html{
@@ -21,6 +24,16 @@ body{
     font-size: 1.6rem;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
+    color: var(--text-color);
 }
 
+button, input, [tabindex]{
+    outline: none;
+    border: none;
+}
+
+a[href]{
+    color: var(--text-color);
+    text-decoration: none;
+}
 
