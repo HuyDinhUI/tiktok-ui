@@ -15,6 +15,9 @@ function Button({
   children,
   onClick,
   passProps,
+  leftIcon,
+  rightIcon,
+  className
 }) {
   let Comp = "button";
 
@@ -38,10 +41,13 @@ function Button({
     rounded,
     small,
     large,
+    [className]:className
   });
   return (
     <Comp className={classnames} {...props}>
-      <span>{children}</span>
+      {leftIcon && <span className={styles.icon}>{leftIcon}</span>}
+      <span className={styles.title}>{children}</span>
+      {rightIcon && <span className={styles.icon}>{rightIcon}</span>}
     </Comp>
   );
 }
