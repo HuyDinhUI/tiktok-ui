@@ -22,11 +22,25 @@ import Menu from "~/component/Popper/Menu";
 const MENU_ITEMS = [
   {
     icon: <FontAwesomeIcon icon={faEarthAsia}></FontAwesomeIcon>,
-    title: "English",
+    title: 'English',
+    children:{
+      title:'Language',
+      data:[
+        {
+          code:'en',
+          title:'English'
+        },
+        {
+          code:'vi',
+          title:'Tiếng Việt'
+        }
+      ]
+    }
   },
   {
     icon: <FontAwesomeIcon icon={faCircleQuestion}></FontAwesomeIcon>,
     title: "Feedback and help",
+    to:'/feedback'
   },
   {
     icon: <FontAwesomeIcon icon={faKeyboard}></FontAwesomeIcon>,
