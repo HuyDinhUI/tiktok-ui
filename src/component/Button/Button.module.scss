@@ -1,12 +1,12 @@
 .wrapper{
     font-size: 1.6rem;
-    font-weight: 700;
     min-width: 100px;
     padding: 9px 16px;
     border-radius: 4px;
     background-color: white;
     border:2px solid transparent;
-    
+    color: var(--text-color);
+    font-weight: 700;
     cursor: pointer;
     + .wrapper{
         margin-left: 5px;

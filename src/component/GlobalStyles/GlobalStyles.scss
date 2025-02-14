@@ -7,7 +7,7 @@
     --primary-color:#ff3b5c;
     --black:#000;
     --default-layout-width:1150px;
-    --text-color:#333;
+    --text-color:rgb(22,24,35);
 }
 
 html{
@@ -21,7 +21,7 @@ html{
 }
 
 body{
-    font-family: "Open Sans", serif;
+    font-family: "Roboto", serif;
     font-size: 1.6rem;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
@@ -42,4 +42,25 @@ a[href]{
     color: var(--text-color);
     text-decoration: none;
 }
+
+body {
+
+    .tippy-box{
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 22px;
+        background-color: rgba(84,84,84,0.92);
+    }
+
+    .tippy-arrow{
+        color: rgba(84,84,84,0.92);
+        
+    }
+
+    .tippy-content{
+        padding: 8px 9px;
+    }
+}
+
 
