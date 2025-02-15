@@ -1,9 +1,11 @@
 .wrapper{
- width: 100%;
- min-height: 100px;
+ width: 20rem;
+ height: 100vh;
  background-color: white;
- box-shadow: rgb( 0 0 0 / 12%) 0px 2px 12px;
- border-radius: 8px;
- max-height: min((100vh - 96px) - 60px,  734px);
+ border-right: 1px solid rgba(0, 0, 0, 0.12);
+border-left: 1px solid rgba(0, 0, 0, 0.12);
+overscroll-behavior: contain;
+ 
  padding-top: 8px;
+ 
 }

@@ -58,7 +58,7 @@ const MENU_ITEMS = [
 
 const currentuser = true;
 
-const usermenu = [
+export const usermenu = [
   {
     icon: <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>,
     title: "View user",

@@ -1,0 +1,37 @@
+.inner{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.25rem;
+    padding-bottom: 0.5rem;
+    flex-shrink: 0;
+    gap: 1rem;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+
+    .search-btn{
+        background-color: rgb(242, 242, 242);
+        width: 208px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 0px;
+        border-radius: 50px;
+        
+    }
+}
+.search{
+    display: flex;
+}
+
+[data-tippy-root] {
+    position: fixed !important;
+  }
+
+.logo{
+    display: flex;
+    padding-inline-start: 0.5rem;
+    width: 208px;
+    -webkit-box-pack: start;
+    justify-content: start;
+}

@@ -6,13 +6,15 @@
 }
 
 .menu-items{
-    padding: 11px 16px;
+    
     border-radius: 0px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     line-height: 1.8rem;
-    font-weight: 600;
+    font-weight: 550;
+    height: 40px;
     &.separate{
         border-top: 1px solid rgba(22, 24, 35, 0.12);
     }

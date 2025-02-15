@@ -1,4 +1,46 @@
 .Wrapper{
-    width: 356px;
+    width: 240px;
+    flex-shrink: 0;
+    z-index: 99;
     
+}
+
+.container{
+    width: 240px;
+    height: 100vh;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: clip hidden;
+    overscroll-behavior: contain;
+    flex-direction: column;
+    flex-shrink: 0;
+    background-color: var(--white);
+    position: fixed;
+    box-sizing: content-box;
+
+}
+
+.container-fixed{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.25rem;
+    padding-bottom: 0.5rem;
+    flex-shrink: 0;
+    gap: 1rem;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.container-scroll{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-top: 0.25rem;
+    padding-bottom: 0.5rem;
+    scrollbar-width: none;
 }
