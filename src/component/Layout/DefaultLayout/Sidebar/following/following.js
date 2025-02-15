@@ -2,7 +2,9 @@ import styles from './following.module.scss'
 
 function Following(){
     return(
-        <div className={styles.wrapper}></div>
+        <div className={styles.wrapper}>
+            
+        </div>
     )
 }
 

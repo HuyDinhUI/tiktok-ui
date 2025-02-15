@@ -5,12 +5,14 @@ import Following from "./following/following";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   ACtivityIcon,
+  ArrowIcon,
   ExploreIconn,
   FollowingIcon,
   FriendsIcon,
   HomeIcon,
   LiveIcon,
   MessIcon,
+  MoreIcon,
   UploadIcon,
 } from "~/component/Icons";
 
@@ -48,8 +50,38 @@ const SIDEBAR_ITEMS = [
     title: "LIVE",
   },
   {
-    icon: <HomeIcon />,
-    title: "For You",
+    icon: (
+      <img
+        style={{ width: "32px", height: "32px", borderRadius: "50px" }}
+        src="https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/ff832a9b10986dd21cefbad621a3ca91.jpeg?lk3s=a5d48078&nonce=48631&refresh_token=cd4c8c083309c92a19f9b0d8dfbcf236&x-expires=1739793600&x-signature=kinZc0sQx%2BtWoEcMWkdEBUg%2FlT4%3D&shp=a5d48078&shcp=81f88b70"
+      ></img>
+    ),
+    title: "Profile",
+  },
+  {
+    icon: <MoreIcon />,
+    title: "More",
+    child: {
+      title: "More",
+      data: [
+        {
+          title: "Get Coins",
+        },
+        {
+          title: "Create TikTok effects",
+        },
+        {
+          title:"Business Suite"
+        },
+        {
+          title:"Creator Tools",
+          icon:<ArrowIcon/>
+        },
+        {
+          title:""
+        }
+      ],
+    },
   },
 ];
 

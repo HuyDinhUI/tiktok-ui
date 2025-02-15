@@ -21,9 +21,7 @@ function Header() {
         </a>
       </div>
       <HeadlessTippy
-      
       interactive
-      
       placement="right"
        trigger="click"
         render={(attrs) => (

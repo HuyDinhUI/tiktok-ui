@@ -7,7 +7,7 @@
 
 .menu-items{
     
-    border-radius: 0px;
+    border-radius: 5px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -15,8 +15,10 @@
     line-height: 1.8rem;
     font-weight: 550;
     height: 40px;
+    gap:0.7rem;
+    padding:0px;
     &.separate{
-        border-top: 1px solid rgba(22, 24, 35, 0.12);
+        border-top: 1px solid rgba(22, 24, 35, 0.25);
     }
 
     &:hover{
