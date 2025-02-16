@@ -15,6 +15,7 @@ import {
   MoreIcon,
   UploadIcon,
 } from "~/component/Icons";
+import MenuSidebar from "./Menu/Menu";
 
 const SIDEBAR_ITEMS = [
   {
@@ -61,27 +62,47 @@ const SIDEBAR_ITEMS = [
   {
     icon: <MoreIcon />,
     title: "More",
-    child: {
-      title: "More",
-      data: [
-        {
-          title: "Get Coins",
+    children: [
+      {
+        title: "Get Coins",
+      },
+      {
+        title: "Create TikTok effects",
+      },
+      {
+        title: "Business Suite",
+      },
+      {
+        title: "Creator Tools",
+        icon: <ArrowIcon />,
+      },
+      {
+        title: "English",
+        icon: <ArrowIcon />,
+        children: {
+          title: "Language",
+          data: [
+            {
+              code: "en",
+              title: "English",
+            },
+          ],
         },
-        {
-          title: "Create TikTok effects",
-        },
-        {
-          title:"Business Suite"
-        },
-        {
-          title:"Creator Tools",
-          icon:<ArrowIcon/>
-        },
-        {
-          title:""
-        }
-      ],
-    },
+      },
+      {
+        title: "Dark mode",
+        icon: <ArrowIcon />,
+      },
+      {
+        title: "Settings",
+      },
+      {
+        title: "Feedback and help",
+      },
+      {
+        title: "Log out",
+      },
+    ],
   },
 ];
 
@@ -93,7 +114,7 @@ function Sidebar() {
           <Header></Header>
         </div>
         <div className={styles["container-scroll"]}>
-          <Menu items={SIDEBAR_ITEMS}></Menu>
+          <MenuSidebar items={SIDEBAR_ITEMS}></MenuSidebar>
           <Following></Following>
         </div>
       </div>

@@ -8,3 +8,24 @@
     flex-direction: column;
     gap: 0.25rem;
 }
+
+.menu-items{
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    line-height: 1.8rem;
+    font-weight: 550;
+    height: 40px;
+    gap:0.7rem;
+    padding:0px 5px;
+
+    &:hover{
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.content{
+    padding:5px;
+}
