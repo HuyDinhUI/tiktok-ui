@@ -7,13 +7,15 @@ import AccountItem from "~/component/AccountIem";
 
 const cx = classNames.bind(styles);
 
-function MenuItem({ key, data, onClick }) {
+function MenuItem({ key, data, onClick,rightIcon,leftIcon }) {
+  
   return (
     <Button
       to={data.to}
       className={cx("menu-items", { separate: data.separate })}
       onClick={onClick}
       leftIcon={data.icon}
+      
     >
       {data.title}
     </Button>

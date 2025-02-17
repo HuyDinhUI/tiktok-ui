@@ -1,8 +1,4 @@
-export const HomeIcon = ({
-  width = "3.2rem",
-  height = "3.2rem",
-  className,
-}) => (
+export const HomeIcon = ({ width = "1em", height = "1em", className }) => (
   <svg
     className={className}
     width={width}
@@ -20,11 +16,7 @@ export const HomeIcon = ({
   </svg>
 );
 
-export const ExploreIconn = ({
-  width = "3.2rem",
-  height = "3.2rem",
-  className,
-}) => (
+export const ExploreIconn = ({ width = "1em", height = "1em", className }) => (
   <svg
     className={className}
     fill="currentColor"
@@ -38,11 +30,7 @@ export const ExploreIconn = ({
   </svg>
 );
 
-export const FollowingIcon = ({
-  width = "3.2rem",
-  height = "3.2rem",
-  className,
-}) => (
+export const FollowingIcon = ({ width = "1em", height = "1em", className }) => (
   <svg
     className={className}
     fill="currentColor"
@@ -50,16 +38,13 @@ export const FollowingIcon = ({
     xmlns="http://www.w3.org/2000/svg"
     width={width}
     height={height}
+    fontSize={"24px"}
   >
     <path d="M18.99 3a10 10 0 1 1 0 20 10 10 0 0 1 0-20Zm0 4a6 6 0 1 0 0 12.00A6 6 0 0 0 19 7ZM18.99 26c2.96 0 5.6.58 7.87 1.65l-3.07 3.06a15.38 15.38 0 0 0-4.8-.71C10.9 30 6.3 35.16 6 43c-.02.55-.46 1-1.02 1h-2c-.55 0-1-.45-.98-1C2.33 32.99 8.7 26 19 26ZM35.7 41.88 31.82 38H45a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H31.82l3.88-3.88a1 1 0 0 0 0-1.41l-1.41-1.42a1 1 0 0 0-1.42 0l-7.3 7.3a2 2 0 0 0 0 2.82l7.3 7.3a1 1 0 0 0 1.42 0l1.41-1.42a1 1 0 0 0 0-1.41Z"></path>
   </svg>
 );
 
-export const FriendsIcon = ({
-  width = "3.2rem",
-  height = "3.2rem",
-  className,
-}) => (
+export const FriendsIcon = ({ width = "1em", height = "1em", className }) => (
   <svg
     className={className}
     width={width}
@@ -87,11 +72,7 @@ export const FriendsIcon = ({
   </svg>
 );
 
-export const UploadIcon = ({
-  width = "3.2rem",
-  height = "3.2rem",
-  className,
-}) => (
+export const UploadIcon = ({ width = "1em", height = "1em", className }) => (
   <svg
     className={className}
     fill="currentColor"
@@ -99,17 +80,14 @@ export const UploadIcon = ({
     xmlns="http://www.w3.org/2000/svg"
     width={width}
     height={height}
+    fontSize={"24px"}
   >
     <path d="M25 15a1 1 0 0 1 1 1v6h6a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-6v6a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-6h-6a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1h6v-6a1 1 0 0 1 1-1h2Z"></path>
     <path d="M33.58 4.5H14.42c-1.33 0-2.45 0-3.37.07-.95.08-1.86.25-2.73.7a7 7 0 0 0-3.06 3.05 7.14 7.14 0 0 0-.69 2.73 44.6 44.6 0 0 0-.07 3.37v19.16c0 1.33 0 2.45.07 3.37.08.95.25 1.86.7 2.73a7 7 0 0 0 3.05 3.06c.87.44 1.78.6 2.73.69.92.07 2.04.07 3.37.07h19.16c1.33 0 2.45 0 3.37-.07a7.14 7.14 0 0 0 2.73-.7 7 7 0 0 0 3.06-3.05c.44-.87.6-1.78.69-2.73.07-.92.07-2.04.07-3.37V14.42c0-1.33 0-2.45-.07-3.37a7.14 7.14 0 0 0-.7-2.73 7 7 0 0 0-3.05-3.06 7.14 7.14 0 0 0-2.73-.69 44.6 44.6 0 0 0-3.37-.07ZM10.14 8.83c.2-.1.53-.21 1.24-.27.73-.06 1.69-.06 3.12-.06h19c1.43 0 2.39 0 3.12.06a3.3 3.3 0 0 1 1.24.27 3 3 0 0 1 1.31 1.3c.1.21.21.54.27 1.25.06.73.06 1.69.06 3.12v19c0 1.43 0 2.39-.06 3.12a3.3 3.3 0 0 1-.27 1.24 3 3 0 0 1-1.3 1.31c-.21.1-.54.21-1.25.27-.73.06-1.69.06-3.12.06h-19c-1.43 0-2.39 0-3.12-.06a3.3 3.3 0 0 1-1.24-.27 3 3 0 0 1-1.31-1.3c-.1-.21-.21-.54-.27-1.25-.06-.73-.06-1.69-.06-3.12v-19c0-1.43 0-2.39.06-3.12a3.3 3.3 0 0 1 .27-1.24 3 3 0 0 1 1.3-1.31Z"></path>
   </svg>
 );
 
-export const ACtivityIcon = ({
-  width = "3.2rem",
-  height = "3.2rem",
-  className,
-}) => (
+export const ACtivityIcon = ({ width = "1em", height = "1em", className }) => (
   <svg
     className={className}
     width={width}
@@ -127,11 +105,7 @@ export const ACtivityIcon = ({
   </svg>
 );
 
-export const MessIcon = ({
-  width = "3.2rem",
-  height = "3.2rem",
-  className,
-}) => (
+export const MessIcon = ({ width = "1em", height = "1em", className }) => (
   <svg
     className={className}
     fill="currentColor"
@@ -140,6 +114,7 @@ export const MessIcon = ({
     xmlns="http://www.w3.org/2000/svg"
     width={width}
     height={height}
+    fontSize={"24px"}
   >
     <g clipPath="url(#Icon-Paperplane_svg__a)">
       <path d="M2.18 9.67A2 2 0 0 1 4 8.5h40a2 2 0 0 1 1.74 3l-20 35a2 2 0 0 1-3.65-.4l-5.87-18.6L2.49 11.82a2 2 0 0 1-.31-2.15Zm18.2 17.72 4.15 13.15L40.55 12.5H8.41l9.98 11.41 11.71-7.2a1 1 0 0 1 1.38.32l1.04 1.7a1 1 0 0 1-.32 1.38L20.38 27.4Z"></path>
@@ -152,11 +127,7 @@ export const MessIcon = ({
   </svg>
 );
 
-export const LiveIcon = ({
-  width = "3.2rem",
-  height = "3.2rem",
-  className,
-}) => (
+export const LiveIcon = ({ width = "1em", height = "1em", className }) => (
   <svg
     className={className}
     width={width}
@@ -175,11 +146,7 @@ export const LiveIcon = ({
   </svg>
 );
 
-export const MoreIcon = ({
-  width = "3.2rem",
-  height = "3.2rem",
-  className,
-}) => (
+export const MoreIcon = ({ width = "1em", height = "1em", className }) => (
   <svg
     className={className}
     fill="currentColor"
@@ -187,16 +154,13 @@ export const MoreIcon = ({
     xmlns="http://www.w3.org/2000/svg"
     width={width}
     height={height}
+    fontSize={'24px'}
   >
     <path d="M5 24a4 4 0 1 1 8 0 4 4 0 0 1-8 0Zm15 0a4 4 0 1 1 8 0 4 4 0 0 1-8 0Zm15 0a4 4 0 1 1 8 0 4 4 0 0 1-8 0Z"></path>
   </svg>
 );
 
-export const ArrowIcon = ({
-  width = "3.2rem",
-  height = "3.2rem",
-  className,
-}) => (
+export const ArrowIcon = ({ width = "2rem", height = "2rem", className }) => (
   <svg
     fill="currentColor"
     class="flip-rtl "
@@ -208,5 +172,22 @@ export const ArrowIcon = ({
     height={height}
   >
     <path d="M28.74 24 15.08 10.33a1 1 0 0 1 0-1.41l1.84-1.84a1 1 0 0 1 1.41 0L34.54 23.3a1 1 0 0 1 0 1.42l-16.2 16.21a1 1 0 0 1-1.42 0l-1.84-1.84a1 1 0 0 1 0-1.41L28.74 24Z"></path>
+  </svg>
+);
+
+export const SearchIcon = ({ width = "1em", height = "1em", className }) => (
+  <svg
+    fill="currentColor"
+    viewBox="0 0 48 48"
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    fontSize={'19px'}
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M21.83 7.5a14.34 14.34 0 1 1 0 28.68 14.34 14.34 0 0 1 0-28.68Zm0-4a18.33 18.33 0 1 0 11.48 32.64l8.9 8.9a1 1 0 0 0 1.42 0l1.4-1.41a1 1 0 0 0 0-1.42l-8.89-8.9A18.34 18.34 0 0 0 21.83 3.5Z"
+    ></path>
   </svg>
 );

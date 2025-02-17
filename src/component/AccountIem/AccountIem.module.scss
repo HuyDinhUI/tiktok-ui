@@ -1,17 +1,17 @@
 .wrapper{
     display: flex;
     align-items: center;
-    padding: 6px 16px;
+    
     cursor: pointer;
-
+    width: 100%;
     &:hover{
         background-color: rgba(22, 24, 35 , 0.03);
     }
 }
 
 .avatar{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 100%;
     object-fit: cover;
 }
@@ -19,12 +19,19 @@
 .info{
     flex: 1;
     margin-left: 12px;
+    font-size: 14px;
 }
 
 .name{
     color:var(--black);
-    font-size: 1.6rem;
+    
     font-weight: 500;
+    line-height: 1.1375rem;
+    letter-spacing: 0.0938px;
+    max-width: 126px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .icon-check{

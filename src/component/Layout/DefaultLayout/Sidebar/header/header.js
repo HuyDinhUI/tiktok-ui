@@ -9,6 +9,7 @@ import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import { Wrapper as PopperWrapper } from "~/component/Popper";
 import AccountItem from "~/component/AccountIem";
+import { SearchIcon } from "~/component/Icons";
 const data = usermenu;
 
 function Header() {
@@ -37,7 +38,7 @@ function Header() {
           <Button
             className={className}
             leftIcon={
-              <FontAwesomeIcon icon={faMagnifyingGlass}></FontAwesomeIcon>
+              <SearchIcon/>
             }
           >
             Search

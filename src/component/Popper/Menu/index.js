@@ -4,6 +4,10 @@ import styles from "./Menu.module.scss";
 import MenuItem from "./MenuItem";
 import Header from "./Header";
 import { useState } from "react";
+import Button from "~/component/Button";
+import classNames from "classnames/bind";
+
+const cx = classNames.bind(styles);
 
 function Menu({ children, items = [] }) {
   console.log(items)
@@ -17,18 +21,17 @@ function Menu({ children, items = [] }) {
     return current.data.map((item, index) => {
       const isParent = !!item.children
       console.log(isParent)
-      return <MenuItem key={index} data={item} onClick={()=>{
+      return <Button rightIcon={item.icon} to={item.to} className={cx('menu-items',{separate:item.separate})} key={index} onClick={()=>{
         if (isParent){
           setHistory(prev => [...prev, item.children])
         }
-      }}></MenuItem>
+      }}>{item.title}</Button>
     });
   };
   return (
     <Tippy
       placement="right"
       trigger="click"
-      delay={[0, 700]}
       interactive
       render={(attrs) => (
         <div className={styles.content} tabIndex="-1" {...attrs}>

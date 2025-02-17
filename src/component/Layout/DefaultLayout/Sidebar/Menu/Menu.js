@@ -6,15 +6,7 @@ import Menu from "~/component/Popper/Menu";
 import Button from "~/component/Button";
 
 function MenuSidebar({ items = [] }) {
-  const RenderItemMore = (data) => {
-    return data.map((item, index) => {
-      return (
-       <Menu items={data}>
-          <MenuItem data={item}></MenuItem>
-       </Menu>
-      );
-    });
-  };
+  
 
   const RenderItems = () => {
     return items.map((item, index) => {

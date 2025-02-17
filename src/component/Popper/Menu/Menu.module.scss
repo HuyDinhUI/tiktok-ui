@@ -10,7 +10,7 @@
     border-radius: 5px;
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    
     align-items: center;
     line-height: 1.8rem;
     font-weight: 550;
@@ -18,7 +18,7 @@
     gap:0.7rem;
     padding:0px;
     &.separate{
-        border-top: 1px solid rgba(22, 24, 35, 0.25);
+        justify-content: space-between;
     }
 
     &:hover{
@@ -28,8 +28,9 @@
 
 
 
+
 .menu-popper{
-    padding-bottom: 8px;
+    padding: 8px;
 }
 
 .header{

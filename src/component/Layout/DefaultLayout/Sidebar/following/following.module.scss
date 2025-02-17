@@ -1,9 +1,24 @@
 .wrapper{
+    width: 208px;
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
     -webkit-box-align: center;
-    align-items: center;
     opacity: 1;
+    border-top: 1px solid rgba(0, 0, 0, 0.074);
     
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    list-style-type: none;
+    gap:1.35rem;
+    font-size: 14px;
+    
+}
+
+.title{
+    padding:0 8px;
 }

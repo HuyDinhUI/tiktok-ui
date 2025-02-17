@@ -53,7 +53,7 @@ const SIDEBAR_ITEMS = [
   {
     icon: (
       <img
-        style={{ width: "32px", height: "32px", borderRadius: "50px" }}
+        style={{ width: "24px", height: "24px", borderRadius: "50px" }}
         src="https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/ff832a9b10986dd21cefbad621a3ca91.jpeg?lk3s=a5d48078&nonce=48631&refresh_token=cd4c8c083309c92a19f9b0d8dfbcf236&x-expires=1739793600&x-signature=kinZc0sQx%2BtWoEcMWkdEBUg%2FlT4%3D&shp=a5d48078&shcp=81f88b70"
       ></img>
     ),
@@ -75,10 +75,12 @@ const SIDEBAR_ITEMS = [
       {
         title: "Creator Tools",
         icon: <ArrowIcon />,
+        separate: true
       },
       {
         title: "English",
         icon: <ArrowIcon />,
+        separate: true,
         children: {
           title: "Language",
           data: [
@@ -92,6 +94,7 @@ const SIDEBAR_ITEMS = [
       {
         title: "Dark mode",
         icon: <ArrowIcon />,
+        separate: true,
       },
       {
         title: "Settings",
